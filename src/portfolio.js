@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://knagaitsev.github.io',
+  title: 'KN.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Kirill Nagaitsev',
+  role: 'Ph.D. Student at ',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: '#projects',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    // linkedin: 'https://linkedin.com',
+    github: 'https://github.com/knagaitsev',
   },
 }
 
@@ -65,7 +65,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'knagaitsev@u.northwestern.edu',
 }
 
 export { header, about, projects, skills, contact }

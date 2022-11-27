@@ -1,12 +1,13 @@
 import './Footer.css'
+import CopyrightIcon from '@material-ui/icons/Copyright'
 
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://github.com/rajshekhar26/cleanfolio'
+      href='/'
       className='link footer__link'
     >
-      Created By Raj Shekhar
+      Copyright © Kirill Nagaitsev 2022
     </a>
   </footer>
 )
