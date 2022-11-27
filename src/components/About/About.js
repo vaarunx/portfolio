@@ -10,7 +10,10 @@ const About = () => {
 
   return (
     <div className='about center'>
-      <img src={pic1} className='propic' alt="Kirill Nagaitsev" />
+      <div className='propic-cont'>
+        <img src={pic1} className='propic propic-bottom' alt="Kirill Nagaitsev" />
+        <img src={pic2} className='propic propic-top' alt="Kirill Nagaitsev" />
+      </div>
 
       {name && (
         <h1>
