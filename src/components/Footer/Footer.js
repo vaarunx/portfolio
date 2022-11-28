@@ -7,7 +7,7 @@ const Footer = () => (
       href='/'
       className='link footer__link'
     >
-      Copyright © Kirill Nagaitsev 2022
+      © Kirill Nagaitsev 2022
     </a>
   </footer>
 )

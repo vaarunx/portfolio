@@ -21,29 +21,39 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Interrupt Polling',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Operating Systems', 'Compilers', 'Parallelism'],
+    // sourceCode: 'https://github.com',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Vlang',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Compilers', 'Parallelism', 'Heterogeneous Hardware'],
+    // sourceCode: 'https://github.com',
+    // livePreview: 'https://github.com',
   },
+  // {
+  //   name: 'Project 3',
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stack: ['SASS', 'TypeScript', 'React'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  // },
+]
+
+const publications = [
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+    name: 'funcX: Federated Function as a Service for Science',
+    authors: ['Zhuozhao Li', 'Ryan Chard', 'Yadu Babuji', 'Ben Galewsky', 'Tyler Skluzacek', 'Kirill Nagaitsev', 'Anna Woodard', 'Ben Blaiszik', 'Josh Bryan', 'Daniel S. Katz', 'Ian Foster', 'Kyle Chard'],
+    sourceCode: 'https://github.com/funcx-faas/funcX',
+    livePreview: 'https://arxiv.org/abs/2209.11631',
+    isPublication: true,
+  }
 ]
 
 const skills = [
@@ -68,4 +78,4 @@ const contact = {
   email: 'knagaitsev@u.northwestern.edu',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, publications }

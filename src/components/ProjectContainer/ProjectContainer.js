@@ -5,7 +5,17 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
+    {!project.isPublication && (
+      <h3>{project.name}</h3>
+    )}
+
+    {project.isPublication && (
+      <h4>{project.name}</h4>
+    )}
+
+    {/* {project.isPublication && (
+      <hr />
+    )} */}
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -16,6 +26,17 @@ const ProjectContainer = ({ project }) => (
           </li>
         ))}
       </ul>
+    )}
+
+    {project.authors && (
+      <p>
+        {project.authors.map((item, idx) => (
+          <span>
+            {item === 'Kirill Nagaitsev' ? (<b>{item}</b>) : (<span>{item}</span>)}
+            {idx !== project.authors.length - 1 && (', ')}
+          </span>
+        ))}
+      </p>
     )}
 
     {project.sourceCode && (

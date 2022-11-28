@@ -1,22 +1,22 @@
 import uniqid from 'uniqid'
-import { projects } from '../../portfolio'
+import { publications } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './Publications.css'
 
-const Projects = () => {
-  if (!projects.length) return null
+const Publications = () => {
+  if (!publications.length) return null
 
   return (
     <section id='publications' className='section publications'>
       <h2 className='section__title'>Publications</h2>
 
       <div className='publications__grid'>
-        {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
+        {publications.map((pub) => (
+          <ProjectContainer key={uniqid()} project={pub} />
         ))}
       </div>
     </section>
   )
 }
 
-export default Projects
+export default Publications

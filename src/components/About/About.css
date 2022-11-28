@@ -64,6 +64,10 @@
   --shadow: rgba(100, 100, 111, 0.4) 0px 15px 29px 0px;
 }
 
+/* .propic-top {
+  opacity: 0;
+} */
+
 .propic-top:hover {
   opacity: 0;
 }
