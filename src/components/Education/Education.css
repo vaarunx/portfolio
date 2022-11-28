@@ -1,0 +1,44 @@
+.education__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2em;
+}
+
+.education__grid h4 {
+  text-align: left;
+  /* margin-left: 1em; */
+}
+
+.education__grid p {
+  text-align: left;
+  /* margin-left: 1em; */
+}
+
+.education__grid .project {
+  margin: 0 5vw;
+}
+
+hr {
+  height: 2px;
+  width: 80%;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.light hr {
+  background: linear-gradient(to right, rgb(158, 158, 158), rgba(255, 255, 255, 0));
+}
+
+.dark hr {
+  background: linear-gradient(to right, #545473, rgba(255, 255, 255, 0));
+}
+
+.years span.school {
+  margin-right: 7px;
+}
+
+.years span.school svg {
+  margin-bottom: -5px;
+}

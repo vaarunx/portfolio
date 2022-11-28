@@ -56,21 +56,25 @@
   transition: opacity .5s ease-in-out;
 }
 
-.propic-bottom {
+.propic-top {
   box-shadow: var(--shadow);
 }
 
-.light .propic-bottom {
+/* .propic-bottom {
+  box-shadow: var(--shadow);
+} */
+
+.light .propic-top {
   --shadow: rgba(100, 100, 111, 0.4) 0px 15px 29px 0px;
 }
 
-/* .propic-top {
-  opacity: 0;
-} */
-
-.propic-top:hover {
+.propic-bottom {
   opacity: 0;
 }
+
+/* .propic-top:hover {
+  opacity: 0;
+} */
 
 /* .propic:hover {
   -webkit-transform: scaleX(-1);

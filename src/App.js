@@ -3,8 +3,9 @@ import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
-import Skills from './components/Skills/Skills'
+// import Skills from './components/Skills/Skills'
 import Publications from './components/Publications/Publications'
+import Education from './components/Education/Education'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
@@ -22,6 +23,7 @@ const App = () => {
         <Projects />
         <Publications />
         {/* <Skills /> */}
+        <Education />
         <Contact />
       </main>
 

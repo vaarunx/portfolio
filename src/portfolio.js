@@ -56,6 +56,23 @@ const publications = [
   }
 ]
 
+const education = [
+  {
+    name: 'Northwestern University',
+    description: 'Ph.D. in Computer Science',
+    years: '2022 - Present',
+    isPublication: true,
+    isEducation: true,
+  },
+  {
+    name: 'University of Chicago',
+    description: 'B.A. in Computer Science',
+    years: '2018 - 2022',
+    isPublication: true,
+    isEducation: true,
+  }
+]
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -78,4 +95,4 @@ const contact = {
   email: 'knagaitsev@u.northwestern.edu',
 }
 
-export { header, about, projects, skills, contact, publications }
+export { header, about, projects, skills, contact, publications, education }

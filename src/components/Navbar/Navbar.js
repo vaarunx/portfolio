@@ -43,7 +43,7 @@ const Navbar = () => {
 
         <li className='nav__list-item'>
           <a
-            href='#publications'
+            href='#education'
             onClick={toggleNavList}
             className='link link--nav'
           >

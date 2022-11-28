@@ -1,21 +1,23 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import SchoolIcon from '@material-ui/icons/School'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    {!project.isPublication && (
-      <h3>{project.name}</h3>
+    {project.isPublication ? (<h4>{project.name}</h4>) : (<h3>{project.name}</h3>)}
+
+    {project.years && (
+      <p className='years'>
+        <span className="school">
+          <SchoolIcon />
+        </span>
+        <span>{project.years}</span>
+      </p>
     )}
 
-    {project.isPublication && (
-      <h4>{project.name}</h4>
-    )}
-
-    {/* {project.isPublication && (
-      <hr />
-    )} */}
+    {project.isEducation && (<hr />)}
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
