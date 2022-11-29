@@ -33,7 +33,7 @@ const ProjectContainer = ({ project }) => (
     {project.authors && (
       <p>
         {project.authors.map((item, idx) => (
-          <span>
+          <span key={uniqid()}>
             {item === 'Kirill Nagaitsev' ? (<b>{item}</b>) : (<span>{item}</span>)}
             {idx !== project.authors.length - 1 && (', ')}
           </span>
