@@ -1,3 +1,8 @@
+TODO:
+
+- replace text placeholders
+- add a description in the 'description' meta tag HTML
+
 Need the following:
 
 - About

@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://knagaitsev.github.io',
+  homepage: '/',
   title: 'KN.',
 }
 
@@ -8,8 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Kirill Nagaitsev',
   role: 'Ph.D. Student at ',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: "I'm a first year Ph.D. student at Northwestern University, advised by Peter Dinda. My research interests mainly lie in operating system and compiler support for parallel computing. In my free time, I enjoy running and multiplayer game development.",
   resume: '#projects',
   social: {
     // linkedin: 'https://linkedin.com',
@@ -23,7 +22,7 @@ const projects = [
   {
     name: 'Interrupt Polling',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Interrupts are a source of nondeterminism on modern architectures. This project aims to replace all hardware interrupts in a kernel with compiler-based interrupt polling at frequent intervals, removing all nondeterminism and reducing interrupt overhead.',
     stack: ['Operating Systems', 'Compilers', 'Parallelism'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
@@ -31,7 +30,7 @@ const projects = [
   {
     name: 'Vlang',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This project aims to map high-level parallel code to hardware accelerators that can exploit the parallelism. A high-level parallel language compiles to an intermediary language that exposes the parallelism, then we map this to hardware via LLVM.',
     stack: ['Compilers', 'Parallelism', 'Heterogeneous Hardware'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
@@ -66,7 +65,7 @@ const education = [
   },
   {
     name: 'University of Chicago',
-    description: 'B.A. in Computer Science',
+    description: 'B.A. in Computer Science (magna cum laude)',
     years: '2018 - 2022',
     isPublication: true,
     isEducation: true,
