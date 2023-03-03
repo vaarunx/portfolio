@@ -11,7 +11,7 @@ const about = {
   description: "I'm a first year Ph.D. student at Northwestern University, advised by Peter Dinda. My research interests mainly lie in operating system and compiler support for parallel computing. In my free time, I enjoy running and multiplayer game development.",
   resume: '#projects',
   social: {
-    // linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/knagaitsev/',
     github: 'https://github.com/knagaitsev',
   },
 }
