@@ -28,7 +28,7 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
-    name: 'Vlang',
+    name: 'Village',
     description:
       'This project aims to map high-level parallel code to hardware accelerators that can exploit the parallelism. A high-level parallel language compiles to an intermediary language that exposes the parallelism, then we map this to hardware via LLVM.',
     stack: ['Compilers', 'Parallelism', 'Heterogeneous Hardware'],
