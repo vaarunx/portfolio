@@ -1,18 +1,18 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: '/',
-  title: 'KN.',
+  title: 'VS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Kirill Nagaitsev',
-  role: 'Ph.D. Student at ',
+  name: 'Varun Rishwandh Sekar',
+  role: 'Software Engineer at ',
   description: "I'm a first year Ph.D. student at Northwestern University, advised by Peter Dinda. My research interests mainly lie in operating system and compiler support for parallel computing. In my free time, I enjoy running and multiplayer game development.",
-  resume: '#projects',
+  resume: 'https://drive.google.com/file/d/1jfTq0LbnFmSZ5r7YgQcXiurNBPPfm6Ck/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/kirn/',
-    github: 'https://github.com/knagaitsev',
+    linkedin: 'https://www.linkedin.com/in/varunrishwandh/',
+    github: 'https://github.com/vaarunx',
   },
 }
 

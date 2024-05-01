@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className='section__title'>Contact</h2>
       <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
-          knagaitsev@u.northwestern.edu
+          varunrishwandh10@gmail.com
         </span>
       </a>
     </section>
