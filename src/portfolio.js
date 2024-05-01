@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Varun Rishwandh Sekar',
   role: 'Software Engineer at ',
-  description: "I'm a first year Ph.D. student at Northwestern University, advised by Peter Dinda. My research interests mainly lie in operating system and compiler support for parallel computing. In my free time, I enjoy running and multiplayer game development.",
+  description: "I'm a Software Engineer with a huge interest in Backend Dev",
   resume: 'https://drive.google.com/file/d/1jfTq0LbnFmSZ5r7YgQcXiurNBPPfm6Ck/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/varunrishwandh/',
@@ -20,19 +20,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Interrupt Polling',
+    name: 'Real-Time Content Filtering',
     description:
-      'Interrupts are a source of nondeterminism on modern architectures. This project aims to replace all hardware interrupts in a kernel with compiler-based interrupt polling at frequent intervals, removing all nondeterminism and reducing interrupt overhead.',
-    stack: ['Operating Systems', 'Compilers', 'Parallelism'],
-    // sourceCode: 'https://github.com',
+      'This project contains several deep learning models that classifies the contents of a webpage as Safe or Not safe for work (NSFW) by using techniques such as image classification and sentiment analysis. This is implemented in real-time with a cross-browser web extension that would be able to remove or redact the unmoderated content from the web pages displayed in the client’s browser.',
+    
+      stack: ["Javascript", "Keras", "Flask", "ExpressJS", "Transformers", "CNN"],
+    sourceCode: 'https://github.com/vaarunx/realtime-censorship',
     // livePreview: 'https://github.com',
   },
   {
-    name: 'Village',
+    name: 'Popularity Sentiment Index of World Leaders',
     description:
-      'This project aims to map high-level parallel code to hardware accelerators that can exploit the parallelism. A high-level parallel language compiles to an intermediary language that exposes the parallelism, then we map this to hardware via LLVM.',
-    stack: ['Compilers', 'Parallelism', 'Heterogeneous Hardware'],
-    // sourceCode: 'https://github.com',
+      'This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning models',
+    stack: ["Python", "Keras", "MongoDB", "NLP", "Transformers"],
+    sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
     // livePreview: 'https://github.com',
   },
   // {
@@ -57,16 +58,10 @@ const publications = [
 
 const education = [
   {
-    name: 'Northwestern University',
-    description: 'Ph.D. in Computer Science',
-    years: '2022 - Present',
-    isPublication: true,
-    isEducation: true,
-  },
-  {
-    name: 'University of Chicago',
-    description: 'B.A. in Computer Science (magna cum laude)',
-    years: '2018 - 2022',
+    name: 'Anna University',
+    description: 'B.E in Computer Science and Engineering',
+    gpa: "9.04 / 10",
+    years: '2019 - 2023',
     isPublication: true,
     isEducation: true,
   }
@@ -91,7 +86,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'knagaitsev@u.northwestern.edu',
+  email: 'varunrishwandh10@gmail.com',
 }
 
 export { header, about, projects, skills, contact, publications, education }

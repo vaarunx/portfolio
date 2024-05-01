@@ -42,3 +42,7 @@ hr {
 .years span.school svg {
   margin-bottom: -5px;
 }
+
+.gpa{
+  font-size: smaller;
+}

@@ -27,7 +27,7 @@ const About = () => {
         {resume && (
           <a href={resume} target='_blank' rel="noreferrer">
             <span type='button' className='btn btn--outline'>
-              Projects
+              Resume
             </span>
           </a>
         )}
@@ -35,7 +35,7 @@ const About = () => {
         {social && (
           <>
             {social.github && (
-              <a
+              <a target='_blank' rel="noreferrer"
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
@@ -45,7 +45,7 @@ const About = () => {
             )}
 
             {social.linkedin && (
-              <a
+              <a target='_blank' rel="noreferrer"
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'

@@ -30,11 +30,17 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
+    {project.gpa && (
+      <p className = 'gpa'>
+        <span>GPA: {project.gpa}</span>
+      </p>
+    )}
+
     {project.authors && (
       <p>
         {project.authors.map((item, idx) => (
           <span key={uniqid()}>
-            {item === 'Kirill Nagaitsev' ? (<b>{item}</b>) : (<span>{item}</span>)}
+            {item === 'Varun Rishwandh Sekar' ? (<b>{item}</b>) : (<span>{item}</span>)}
             {idx !== project.authors.length - 1 && (', ')}
           </span>
         ))}
