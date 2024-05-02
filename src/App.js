@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import WorkExperience from './components/WorkExperience/WorkExperience'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -20,6 +21,7 @@ const App = () => {
 
       <main>
         <About />
+        <WorkExperience />
         <Projects />
         <Publications />
         {/* <Skills /> */}

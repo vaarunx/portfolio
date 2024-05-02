@@ -56,6 +56,25 @@ const publications = [
   }
 ]
 
+const workExperience = [
+  {
+    name: 'Mr. Cooper',
+    work_years: 'May 2023 - Present',
+    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    // sourceCode: 'https://github.com/funcx-faas/funcX',
+    livePreview: 'https://arxiv.org/abs/2209.11631',
+    isPublication: true,
+  },
+  {
+    name: 'Mr. Cooper',
+    work_years: 'May 2023 - Present',
+    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    // sourceCode: 'https://github.com/funcx-faas/funcX',
+    livePreview: 'https://arxiv.org/abs/2209.11631',
+    isPublication: true,
+  }
+]
+
 const education = [
   {
     name: 'Anna University',
@@ -89,4 +108,4 @@ const contact = {
   email: 'varunrishwandh10@gmail.com',
 }
 
-export { header, about, projects, skills, contact, publications, education }
+export { header, about, projects, skills, contact, publications, education, workExperience }

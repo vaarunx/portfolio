@@ -17,6 +17,12 @@ const ProjectContainer = ({ project }) => (
       </p>
     )}
 
+    {project.work_years && (
+      <p className='years'>
+        <span>{project.work_years}</span>
+      </p>
+    )}
+
     {project.isEducation && (<hr />)}
 
     <p className='project__description'>{project.description}</p>
