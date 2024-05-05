@@ -16,12 +16,20 @@ const ProjectContainer = ({ project }) => (
         <span>{project.years}</span>
       </p>
     )}
-
-    {project.work_years && (
-      <p className='years'>
-        <span>{project.work_years}</span>
+    {project.company && (
+      <p className='years workex'>
+        <span>
+          <b>{project.company}</b> 
+          <div className = 'workex_years'>
+          {project.work_years}
+          </div>
+        </span>
       </p>
     )}
+
+
+
+
 
     {project.isEducation && (<hr />)}
 

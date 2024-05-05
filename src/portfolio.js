@@ -26,7 +26,6 @@ const projects = [
     
       stack: ["Javascript", "Keras", "Flask", "ExpressJS", "Transformers", "CNN"],
     sourceCode: 'https://github.com/vaarunx/realtime-censorship',
-    // livePreview: 'https://github.com',
   },
   {
     name: 'Popularity Sentiment Index of World Leaders',
@@ -34,45 +33,75 @@ const projects = [
       'This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning models',
     stack: ["Python", "Keras", "MongoDB", "NLP", "Transformers"],
     sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
-    // livePreview: 'https://github.com',
+  },
+  {
+    name: 'Web-app to share Cooking recipes',
+    description:
+      'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
+    stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
+    sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
   },
   // {
-  //   name: 'Project 3',
+  //   name: 'Web-app to share Cooking recipes2',
   //   description:
-  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-  //   stack: ['SASS', 'TypeScript', 'React'],
-  //   sourceCode: 'https://github.com',
-  //   livePreview: 'https://github.com',
+  //     'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
+  //   stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
+  //   sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
   // },
+  // {
+  //   name: 'Web-app to share Cooking recipes',
+  //   description:
+  //     'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
+  //   stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
+  //   sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
+  // },
+
 ]
 
 const publications = [
   {
-    name: 'funcX: Federated Function as a Service for Science',
-    authors: ['Zhuozhao Li', 'Ryan Chard', 'Yadu Babuji', 'Ben Galewsky', 'Tyler Skluzacek', 'Kirill Nagaitsev', 'Anna Woodard', 'Ben Blaiszik', 'Josh Bryan', 'Daniel S. Katz', 'Ian Foster', 'Kyle Chard'],
-    sourceCode: 'https://github.com/funcx-faas/funcX',
-    livePreview: 'https://arxiv.org/abs/2209.11631',
+    name: 'Hybrid Perception Analysis of World Leaders in Reddit using Sentiment Analysis',
+    authors: ['Varun Rishwandh Sekar', 'Thuhin Khanna R', 'Suraj N', 'Priya Vijay' ],
+    livePreview: 'https://doi.org/10.1109/AICAPS57044.2023.10074005',
     isPublication: true,
   }
 ]
 
 const workExperience = [
   {
-    name: 'Mr. Cooper',
+    name: 'Software Engineer - I',
+    company: "Mr. Cooper",
     work_years: 'May 2023 - Present',
     description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
     // sourceCode: 'https://github.com/funcx-faas/funcX',
-    livePreview: 'https://arxiv.org/abs/2209.11631',
     isPublication: true,
   },
   {
-    name: 'Mr. Cooper',
-    work_years: 'May 2023 - Present',
+    name: 'Graduate Intern',
+    company: "Mr. Cooper",
+    work_years: 'Nov 2022 - April 2023',
     description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
     // sourceCode: 'https://github.com/funcx-faas/funcX',
-    livePreview: 'https://arxiv.org/abs/2209.11631',
+    isPublication: true,
+  },
+  {
+    name: 'Java Development Intern',
+    company: "Ziroh Labs",
+    work_years: 'Jan 2022 - March 2022',
+    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    // sourceCode: 'https://github.com/funcx-faas/funcX',
+    isPublication: true,
+  },
+  {
+    name: 'Backend Developer Intern',
+    company: "Grey Scientific Labs",
+    work_years: 'April 2021 - Dec 2021',
+    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
   }
+
+
 ]
 
 const education = [
