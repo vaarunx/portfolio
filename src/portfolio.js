@@ -64,6 +64,7 @@ const publications = [
     authors: ['Varun Rishwandh Sekar', 'Thuhin Khanna R', 'Suraj N', 'Priya Vijay' ],
     livePreview: 'https://doi.org/10.1109/AICAPS57044.2023.10074005',
     isPublication: true,
+    
   }
 ]
 
@@ -72,33 +73,42 @@ const workExperience = [
     name: 'Software Engineer - I',
     company: "Mr. Cooper",
     work_years: 'May 2023 - Present',
-    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
-    // sourceCode: 'https://github.com/funcx-faas/funcX',
+    workExperiencePoints: ["Worked in developing the ruling engine and matching service for an audit application with several queues that compares extracted document data against available system data using text semantic similarity.",
+    "Engineered solutions for identifying and converting the orientation of a document in real-time, resulting in 20% reduction in processing errors.",    
+    "Reduced the dependency of manual human intervention and increased the efficiency of classifying and extracting select mortgage documents."],
     isPublication: true,
+    isWork: true,
+    isEducation: false,
   },
   {
     name: 'Graduate Intern',
     company: "Mr. Cooper",
     work_years: 'Nov 2022 - April 2023',
-    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    workExperiencePoints: ["This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model"],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
+    isWork: true,
+    isEducation: false,
   },
   {
     name: 'Java Development Intern',
     company: "Ziroh Labs",
     work_years: 'Jan 2022 - March 2022',
-    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    workExperiencePoints: ["This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model"],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
+    isWork: true,
+    isEducation: false,
   },
   {
     name: 'Backend Developer Intern',
     company: "Grey Scientific Labs",
     work_years: 'April 2021 - Dec 2021',
-    description: "This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model",
+    workExperiencePoints: ["This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model"],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
+    isWork: true,
+    isEducation: false,
   }
 
 

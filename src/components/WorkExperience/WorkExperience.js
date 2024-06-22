@@ -12,6 +12,7 @@ const WorkExperience = () => {
 
       <div className='workex__grid'>
         {workExperience.map((pub) => (
+        
           <ProjectContainer key={uniqid()} project={pub} />
         ))}
       </div>

@@ -27,14 +27,26 @@ const ProjectContainer = ({ project }) => (
       </p>
     )}
 
-
+  <div className="project__container">
+    {project.isWork && (
+      <>
+        {project.workExperiencePoints && (
+          <ul className='project__workExperiencePoints'>
+            {project.workExperiencePoints.map((desc) => (
+              <li className='project__workExperiencePoints' key={uniqid()}>{desc}</li>
+            ))}
+          </ul>
+        )}
+      </>
+    )}
+  </div>
 
 
 
     {project.isEducation && (<hr />)}
 
     <p className='project__description'>{project.description}</p>
-    {project.stack && (
+    {project.isEducation === true && project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
