@@ -1,11 +1,15 @@
 .project {
   padding: 2em;
   margin: 0 auto;
+  text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 }
 
 .project__workExperiencePoints{
+  margin-top: 0.7em;
+  text-align: justify;
+  list-style-type: square;
   text-decoration: dashed;
 }
 
@@ -14,12 +18,10 @@
 }
 
 .project__description {
-  text-align: center;
   margin-top: 1em;
 }
 
 .project__stack {
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -27,7 +29,6 @@
 }
 
 .project__stack-item {
-  text-align: center;
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;

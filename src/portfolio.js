@@ -7,8 +7,8 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Varun Rishwandh Sekar',
-  role: 'Software Engineer at ',
-  description: "I'm a Software Engineer with a huge interest in Backend Dev",
+  role: "Grad Student at ",
+  description:"Hi! I'm pursuing Master's in Computer Science at Northeastern University. I have a professional experience of over 15 months in software development. I'm an innovative thinker, a problem solver and I'm skilled in building apps using Java, Python, JS.",
   resume: 'https://drive.google.com/file/d/1jfTq0LbnFmSZ5r7YgQcXiurNBPPfm6Ck/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/varunrishwandh/',
@@ -84,7 +84,12 @@ const workExperience = [
     name: 'Graduate Intern',
     company: "Mr. Cooper",
     work_years: 'Nov 2022 - April 2023',
-    workExperiencePoints: ["This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model"],
+
+
+    workExperiencePoints: ["Developed the front-end website of a job portal (Naan Mudhalvan) using NuxtJS for the government of Tamil Nadu, India.", 
+      "Trained and developed Conditional Random Field (CRF) and spaCy models for key information extraction and page clustering; integrated these models into a Java service for enhanced data processing.",
+      "Integrated sonarqube and debricked to over 80 components."
+      , "Increased code coverage of various Java and Python components from 0% to over 70% using JUnit and PyTest respectively."],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
