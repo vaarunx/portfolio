@@ -15,6 +15,14 @@ const Skills = () => {
     }
     return fontColor
   }
+  const currentTheme = () => {
+    const theme = localStorage.getItem("themeName");
+    let label = "#bc9fbd"
+    if (theme === "light"){
+      label = "#5b84a4"
+    }
+    return label
+  }
 
   return (
     <section className='section skills' id='skills'>
@@ -29,7 +37,7 @@ const Skills = () => {
               labelAlignment="outside"
               height="0.85em"
               width="80%"
-              labelColor="#6d0303"
+              labelColor={currentTheme()}
               labelSize="1em"
               />
           </li>
