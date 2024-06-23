@@ -46,7 +46,7 @@ const ProjectContainer = ({ project }) => (
     {project.isEducation && (<hr />)}
 
     <p className='project__description'>{project.description}</p>
-    {project.isEducation === true && project.stack && (
+    {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>

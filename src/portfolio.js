@@ -22,10 +22,16 @@ const projects = [
   {
     name: 'Real-Time Content Filtering',
     description:
-      'This project contains several deep learning models that classifies the contents of a webpage as Safe or Not safe for work (NSFW) by using techniques such as image classification and sentiment analysis. This is implemented in real-time with a cross-browser web extension that would be able to remove or redact the unmoderated content from the web pages displayed in the client’s browser.',
-    
-      stack: ["Javascript", "Keras", "Flask", "ExpressJS", "Transformers", "CNN"],
+      'A cross-browser extension that redacts or blurs NSFW content in the form of images and text displayed in the website. This is achieved by scraping the content and sending the content to an ExpressJS server where the content is passed onto a classifier model to determine if the content is Safe or NSFW.',
+    stack: ["Javascript", "Flask", "ExpressJS", "Transformers", "CNN", "Azure"],
     sourceCode: 'https://github.com/vaarunx/realtime-censorship',
+  },
+  {
+    name: 'Web-app to share Cooking recipes',
+    description:
+      'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
+    stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
+    sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
   },
   {
     name: 'Popularity Sentiment Index of World Leaders',
@@ -35,19 +41,13 @@ const projects = [
     sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
   },
   {
-    name: 'Web-app to share Cooking recipes',
+    name: 'My Locality!',
     description:
-      'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
+      'Designed and built a web app that gathers the user’s location and presents the nearby attractions or events along with the optimized route and timings from the location using Google API.',
     stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
-    sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
+    sourceCode: 'https://github.com/vaarunx/mylocality',
   },
-  // {
-  //   name: 'Web-app to share Cooking recipes2',
-  //   description:
-  //     'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
-  //   stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
-  //   sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
-  // },
+
   // {
   //   name: 'Web-app to share Cooking recipes',
   //   description:
@@ -85,11 +85,9 @@ const workExperience = [
     company: "Mr. Cooper",
     work_years: 'Nov 2022 - April 2023',
 
-
     workExperiencePoints: ["Developed the front-end website of a job portal (Naan Mudhalvan) using NuxtJS for the government of Tamil Nadu, India.", 
-      "Trained and developed Conditional Random Field (CRF) and spaCy models for key information extraction and page clustering; integrated these models into a Java service for enhanced data processing.",
-      "Integrated sonarqube and debricked to over 80 components."
-      , "Increased code coverage of various Java and Python components from 0% to over 70% using JUnit and PyTest respectively."],
+      "Trained a CRF model for key information extraction and integrated these models into a Java service for enhanced data processing and page clustering;.",
+      "Increased code coverage of various Java and Python components from 0% to over 70% using JUnit and PyTest respectively."],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
@@ -99,7 +97,10 @@ const workExperience = [
     name: 'Java Development Intern',
     company: "Ziroh Labs",
     work_years: 'Jan 2022 - March 2022',
-    workExperiencePoints: ["This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model"],
+    workExperiencePoints: [
+      "Designed and developed a Java application to present historical facts based on date and location using Wikimedia and the Bing Search API.",
+      "Implemented caching to avoid redundant API calls and secured data storage with 256-bit AES encryption."
+    ],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
@@ -109,7 +110,11 @@ const workExperience = [
     name: 'Backend Developer Intern',
     company: "Grey Scientific Labs",
     work_years: 'April 2021 - Dec 2021',
-    workExperiencePoints: ["This project serves as a comparison of select rank world leaders based on popular opinion through popular reddit threads by using several machine learning model"],
+    workExperiencePoints: [
+      "Developed RESTful APIs using Django Rest Framework for the backend of a hospital management platform including a canvas area where users could annotate and led the development of a passwordless authentication service.",
+      "Deployed the backend server in an on-prem server using Proxmox and helped set up the development environment.",
+  
+    ],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
