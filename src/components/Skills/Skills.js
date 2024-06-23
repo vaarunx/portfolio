@@ -1,21 +1,42 @@
 import uniqid from 'uniqid'
+import ProgressBar from "@ramonak/react-progress-bar";
 import { skills } from '../../portfolio'
 import './Skills.css'
 
 const Skills = () => {
-  if (!skills.length) return null
+  const skillEntries = Object.entries(skills);
+
+  if (!skillEntries.length) return null
+
+  const barColor = (skillLevel) => {
+    let fontColor = "#2d63dd";
+    if(skillLevel < 40){
+      fontColor = "#FFCC33";
+    }
+    return fontColor
+  }
 
   return (
     <section className='section skills' id='skills'>
-      <h2 className='section__title'>Skills</h2>
-      <ul className='skills__list'>
-        {skills.map((skill) => (
+      <h2 className='section__title'>My Skills</h2>
+      <ul className='skills__grid'>
+        {skillEntries.map(([skill, percentage]) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
             {skill}
+            <ProgressBar 
+              completed={percentage}
+              bgColor={barColor(percentage)}
+              labelAlignment="outside"
+              height="0.85em"
+              width="80%"
+              labelColor="#6d0303"
+              labelSize="1em"
+              />
           </li>
         ))}
       </ul>
     </section>
+
   )
 }
 

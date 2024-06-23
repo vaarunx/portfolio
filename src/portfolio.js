@@ -31,7 +31,7 @@ const projects = [
     description:
       'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
     stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
-    sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
+    sourceCode: 'https://github.com/vaarunx/CookingApp',
   },
   {
     name: 'Popularity Sentiment Index of World Leaders',
@@ -44,17 +44,17 @@ const projects = [
     name: 'My Locality!',
     description:
       'Designed and built a web app that gathers the user’s location and presents the nearby attractions or events along with the optimized route and timings from the location using Google API.',
-    stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
+    stack: ["Google Maps API", "Google Events API", "Firebase", "Django", "React"],
     sourceCode: 'https://github.com/vaarunx/mylocality',
   },
 
-  // {
-  //   name: 'Web-app to share Cooking recipes',
-  //   description:
-  //     'Designed and developed a Recipe sharing and food media platform for users to store and share recipes. Added CRUD operations and allowed the users to either share the recipes either publicly or to privately store them. Implemented an email authentication system and the ability to reset passwords through OTPs',
-  //   stack: ["Python" , "Django" , "MySQL", "HTML", "CSS", "Javascript"],
-  //   sourceCode: 'https://github.com/thuhinkhanna/PoliticalLikeability',
-  // },
+  {
+    name: 'A Personal News Feed',
+    description:
+      'Developed a personalized newsletter that presents the top news in various categories and locations. Used news.org’s news API and other news agencies RSS feeds to search for news articles for each category, and stored them in a local database.',
+    stack: ["React" , "FastAPI" , "MySQL"],
+    sourceCode: 'https://github.com/thuhinkhanna/when-where-what',
+  },
 
 ]
 
@@ -126,6 +126,14 @@ const workExperience = [
 
 const education = [
   {
+    name: 'Northeastern University',
+    description: "Master's in Computer Science",
+    // gpa: "9.04 / 10",
+    years: '2024 - Present',
+    isPublication: true,
+    isEducation: true,
+  },
+  {
     name: 'Anna University',
     description: 'B.E in Computer Science and Engineering',
     gpa: "9.04 / 10",
@@ -135,22 +143,42 @@ const education = [
   }
 ]
 
-const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
-]
+const skills = {
+  "Java": 50, 
+  "Python": 80, 
+  "JavaScript": 70,
+  "C": 50,
+  "SpringBoot": 70,
+  "Git": 80,
+  "Google Cloud": 75,
+  "Azure": 50,
+  "Django": 75,
+  "FastAPI": 80,
+  "NodeJS": 75,
+  "Rust": 30
+}
+
+// const skills = [
+//   // skills can be added or removed
+//   // if there are no skills, Skills section won't show up
+//   "Java",
+//   "Python",
+//   "C",
+//   "JavaScript",
+//   "SpringBoot",
+//   "FastAPI",
+//   "Flask",
+//   "Django",
+//   "ReactJS",
+//   "VueJS",
+//   "ExpressJS",
+//   "NodeJS",
+//   "Git",
+//   "Google Cloud",
+//   "Microsoft Azure",
+//   ""
+
+// ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
