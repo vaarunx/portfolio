@@ -4,6 +4,7 @@ import { about } from '../../portfolio'
 import './About.css'
 // import pic1 from './propic1.jpeg';
 import pic2 from './propic2.jpg';
+import leetcodeIcon from "./leetcode-icon.svg";
 
 const About = () => {
   const { name, role, description, resume, social } = about
@@ -53,6 +54,16 @@ const About = () => {
                 <LinkedInIcon />
               </a>
             )}
+            {social.leetcode && (
+              <a target='_blank' rel="noreferrer"
+                href={social.leetcode}
+                aria-label='leetcode'
+                className='link link--icon'
+              >
+              <img src={leetcodeIcon} className='social-media-icon' alt="Leetcode Icon" />
+              </a>
+            )}
+
           </>
         )}
       </div>

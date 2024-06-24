@@ -13,6 +13,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/varunrishwandh/',
     github: 'https://github.com/vaarunx',
+    leetcode: "https://leetcode.com/u/vaarunx/"
   },
 }
 
@@ -144,18 +145,28 @@ const education = [
 ]
 
 const skills = {
-  "Java": 50, 
-  "Python": 80, 
-  "JavaScript": 70,
-  "C": 50,
-  "SpringBoot": 70,
+  "Python": 90, 
+  "Java": 80, 
+  "JavaScript": 75,
+  "C": 60,
+  "SpringBoot": 80,
+  "Unit Tests": 80,
+  "CSS": 60,
+  "HTML": 80,
   "Git": 80,
-  "Google Cloud": 75,
-  "Azure": 50,
-  "Django": 75,
-  "FastAPI": 80,
+  "GCP": 80,
+  "Azure": 65,
+  "Django": 85,
+  "FastAPI": 90,
+  "Linux": 65,
   "NodeJS": 75,
-  "Rust": 30
+  "VueJS": 60,
+  "PostgreSQL": 80,
+  "MySQL": 80,
+  "MongoDB": 65,
+  "Machine / Deep Learning": 65,
+  "Kotlin": 35,
+  "Rust": 35
 }
 
 // const skills = [

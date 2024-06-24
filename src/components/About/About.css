@@ -8,6 +8,14 @@
   background-color: transparent;
 }
 
+.social-media-icon{
+  fill: none;
+  height: auto; 
+  max-width: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about__role {
   margin-top: 1.2em;
 }
